@@ -1,0 +1,29 @@
+<template name = 'newDraw'>
+
+<div class = "container row">
+
+
+ <div class="input-field">
+ <h5>Name of Drawing</h5>
+<input class = "validate" type="text" id = "nameForm" placeholder =" e.g Single Ladies"/>
+</div>
+
+<br>
+
+</div> 
+<div class = "row center" id = "paletteDiv"></div>
+<div class ="row center z-depth-5" id="paintDiv">
+      <canvas id="canvasDiv"></canvas>
+  </div>
+
+
+<div class="row center">
+<button class= "waves-effect waves-light btn" onclick ="togglePlay()">Play</button>
+<button class= "waves-effect waves-light btn" onclick ="">Save</button>
+</div>
+
+
+<script src="html5-canvas-drawing-app.js"></script>
+<script src="soundManagement.js"></script>
+
+</template>

@@ -1,0 +1,168 @@
+
+/*
+teal: #009688 
+orange: #FF856F ;
+
+ */
+html {
+    font-family: Lato,sans-serif;
+}
+
+.parallax-container {
+    height: 100%;
+}
+
+button {
+    color: black;
+}
+    
+    
+.brand-logo{
+	font-weight: 300;
+}
+
+.nav-container {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.logo-picture{
+	width: 50px;
+	height: auto;
+	padding-top: 10px;
+}
+
+.login-btn-container{
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.login-btn{
+	background-color: #009688;
+}
+
+
+.new-track-btn-container{
+	padding-right: 20px;
+	padding-top: 15px;
+}
+
+
+.signup-btn{
+	background-color: #FF856F;
+}
+
+.big_header_container{
+	padding-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.big_header{
+	font-size: 5em;
+	font-weight: 100;
+	color: white;
+}
+
+.small_header_container{
+	padding-top: 15x;
+	padding-left: 100px;
+	padding-right: 300px;
+}
+.small_header{
+	font-size: 2em;
+	font-weight: 300;
+	color: white;
+}
+
+.trackBox {
+ 	background-color: #FF856F
+ }
+
+
+
+
+/* #layerInfo {
+    position: relative;
+}*/
+#wave {
+    display: inline-block ;
+    margin-left: 200px;
+    position: relative;
+    width: 100%;
+    background-color: #152430;
+    border:1px solid #FF856F;
+
+}
+
+.waveContainer{
+    border: 1px solid #FF856F;
+}
+
+#layerContainer {
+    display: inline-block;
+    width: 200px;
+    /*margin-left: 2.5em;*/
+    padding: 0px;
+    /*border: 2px solid yellow;*/
+    position: absolute;
+    background-color: gray;
+    color: white;
+}
+
+#layerContainer div {
+    height: 100px;
+    margin: 0px;
+    padding-left: 1em;
+    border: 1px solid #FF856F;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+#playPanel {
+    display: block;
+    margin-left: 45%;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 5px;
+    position: fixed;
+
+}
+#howItWorks{
+    position: relative;
+    display: block;
+    margin-top: -2.23em;
+    color: white;
+    font-size: 150px;
+    height: 200px;
+    font-weight: 100;
+    min-width: 1000px;
+}
+
+.howtoHeader {
+    font-weight: 300;
+    font-size: 80px;
+    color: #FF856F;
+
+}
+
+.howToSection {
+    background: linear-gradient(white, #DFEBF2) ;
+}
+
+.editButton {
+    font-size: .8em;
+}
+
+.editButton-impt {
+    font-size: .8em;
+    background-color: #FF856F; 
+}
+
+#paintDiv {
+    height: 500px;
+    width: 800px;
+    border: 1px solid #009688;
+}   
+}
